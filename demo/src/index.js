@@ -7,6 +7,7 @@ import Assignment1 from './Assignment1';
 import Assignment4 from './Assignment4';
 // import { Assignment2 } from './Assignment2';
 import Assignment5 from './Assignment5';
+import ShoppingCart from './ShoppingCart';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +18,8 @@ root.render(
     {/* <Assignment2/> */}
     {/* <Assignment3/> */}
     {/* <Assignment4/> */}
-    <Assignment5/>
+    {/* <Assignment5/> */}
+    <ShoppingCart />
   </React.StrictMode>
 );
 
