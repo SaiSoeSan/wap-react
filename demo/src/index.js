@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Assignment3 from './Assignment3';
 import Assignment1 from './Assignment1';
+import Assignment4 from './Assignment4';
 // import { Assignment2 } from './Assignment2';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +14,8 @@ root.render(
     {/* <App /> */}
     {/* <Assignment1/> */}
     {/* <Assignment2/> */}
-    <Assignment3/>
+    {/* <Assignment3/> */}
+    <Assignment4/>
   </React.StrictMode>
 );
 
