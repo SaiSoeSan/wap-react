@@ -38,7 +38,7 @@ const Assignment5 = () => {
         if(sortAsc){
             setData([...data].sort((a,b) => a.firstName > b.firstName ? 1 : (a.firstName < b.firstName ? -1 : 0 )))
         }else{
-            setData([...data].sort((b,a) => a.firstName > b.firstName ? 1 : (a.firstName < b.firstName ? -1 : 0 )))
+            setData([...data].sort((a,b) => b.firstName > a.firstName ? 1 : (b.firstName < a.firstName ? -1 : 0 )))
         }
     }
 

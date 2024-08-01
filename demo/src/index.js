@@ -10,6 +10,7 @@ import Assignment5 from './Assignment5';
 import ShoppingCart from './ShoppingCart';
 import FormSkill from './FormSkill'
 import reportWebVitals from './reportWebVitals';
+import Humidity from './Humidity';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,8 @@ root.render(
     {/* <Assignment4/> */}
     {/* <Assignment5/> */}
     {/* <ShoppingCart /> */}
-    <FormSkill />
+    {/* <FormSkill /> */}
+    <Humidity />
   </React.StrictMode>
 );
 

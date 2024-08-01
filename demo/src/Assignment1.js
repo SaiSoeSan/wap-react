@@ -25,8 +25,18 @@ const Assignment1 = () => {
 
     const handleSkill = (event) => {
         let value = event.target.value;
-        setSkill((prev) => (
-            prev.includes(value) ?  prev.filter(v => v !== value) : [...prev,value]
+        // setSkill((prev) => (
+        //     prev.includes(value) ?  prev.filter(v => v !== value) : [...prev,value]
+        // ))
+        // const {value, checked} = event.target;
+        // if(checked){
+        //     setSkill([...skill,value]);
+        // }else{
+        //     setSkill(skill.filter(skill => skill !== value))
+        // }
+
+        setSkill(prevValue => (
+            prevValue.includes(value) ? prevValue.filter(item => item !== value) : [...prevValue,value]
         ))
     }
 
