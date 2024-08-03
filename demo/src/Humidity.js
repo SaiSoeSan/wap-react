@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const Humidity = () => {
-    let obj = [{ humidity: 20, speed: 30 }, { humidity: 10, speed: 40 }];
 
+    let obj = [{ humidity: 20, speed: 30 }, { humidity: 10, speed: 40 }];
     const [data,setData] = useState([]);
     const [filteredObject,setFilteredObject] = useState([]);
     
@@ -14,6 +14,8 @@ const Humidity = () => {
         }
         setFilteredObject(result)
     }
+
+    console.log(filteredObject);
 
     const handleSubmit = () => {
         setData(filteredObject)

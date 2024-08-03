@@ -11,6 +11,8 @@ import ShoppingCart from './ShoppingCart';
 import FormSkill from './FormSkill'
 import reportWebVitals from './reportWebVitals';
 import Humidity from './Humidity';
+import F2 from './F2';
+import Avator from './Avator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +25,9 @@ root.render(
     {/* <Assignment5/> */}
     {/* <ShoppingCart /> */}
     {/* <FormSkill /> */}
-    <Humidity />
+    {/* <Humidity /> */}
+    {/* <F2/> */}
+    <Avator/>
   </React.StrictMode>
 );
 
