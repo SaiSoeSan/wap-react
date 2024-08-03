@@ -13,6 +13,7 @@ import reportWebVitals from './reportWebVitals';
 import Humidity from './Humidity';
 import F2 from './F2';
 import Avator from './Avator';
+import NameLocation from './NameLocation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +28,8 @@ root.render(
     {/* <FormSkill /> */}
     {/* <Humidity /> */}
     {/* <F2/> */}
-    <Avator/>
+    {/* <Avator/> */}
+    <NameLocation />
   </React.StrictMode>
 );
 
