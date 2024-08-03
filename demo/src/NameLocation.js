@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const NameLocation = () => {
-    const [added,setAdded] = useState('false');
+    const [added,setAdded] = useState(false);
     const [data,setData] = useState([]);
 
     const [name,setName] = useState();
